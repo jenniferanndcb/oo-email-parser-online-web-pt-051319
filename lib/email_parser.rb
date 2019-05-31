@@ -10,7 +10,6 @@ attr_accessor :emails
     @emails = emails
   end
   
-  def parse 
-    
+   
   
 end
