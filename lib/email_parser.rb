@@ -11,7 +11,7 @@ attr_accessor :emails
   end
   
   def parse
-    parsed = emails.split(/[,\s]/).reject{|el|el.empty?}
+    parsed = emails.split(/[,\s]/).reject{|el|el.empty?}.uniq
   end 
   
 end
