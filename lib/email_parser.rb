@@ -10,6 +10,7 @@ attr_accessor :emails
     @emails = emails
   end
   
-   
+  def parse
+    separated = emails.split(","," ")
   
 end
